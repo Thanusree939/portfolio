@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-gray-50">
+
+  <!-- Header Section -->
+  <header class="bg-gradient-to-r from-blue-500 to-purple-600 text-white text-center py-16">
+    <h1 class="text-5xl font-bold">Hello, I'm THANUSREE KUMMARI</h1>
+    <p class="text-xl mt-4">A Web Developer passionate about creating amazing websites.</p>
+    <a href="#projects" class="mt-6 inline-block bg-white text-blue-500 px-6 py-2 rounded-full">View My Work</a>
+  </header>
+
+  <!-- About Me Section -->
+  <section class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="https://files.oaiusercontent.com/file-RqDSuy5zp7dCL9ezeHu9P8?se=2024-11-29T08%3A16%3A53Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D3b11ade1-c8f3-4fc3-9081-b5fe2a7f313a.webp&sig=Jq/8kNxTgJk664sq5JjVJXjWDBMp0r2DXY1vJmC%2BJiE%3D" alt="Your Photo" class="img-fluid rounded shadow-lg">
+      </div>
+      <div class="col-md-6">
+        <h2>About Me</h2>
+        <p>I am a skilled web developer with experience in frontend and backend technologies. I enjoy solving problems and building beautiful, functional websites.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-100 py-10">
+    <h2 class="text-center text-3xl font-bold mb-6">My Projects</h2>
+    <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white shadow-lg p-4 rounded">
+        <h3 class="text-lg font-semibold">Project 1</h3>
+        <p>A brief description of the project...</p>
+        <a href="#" class="text-blue-500">View Details</a>
+      </div>
+      <div class="bg-white shadow-lg p-4 rounded">
+        <h3 class="text-lg font-semibold">Project 2</h3>
+        <p>A brief description of the project...</p>
+        <a href="#" class="text-blue-500">View Details</a>
+      </div>
+      <div class="bg-white shadow-lg p-4 rounded">
+        <h3 class="text-lg font-semibold">Project 3</h3>
+        <p>A brief description of the project...</p>
+        <a href="#" class="text-blue-500">View Details</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="container my-5">
+    <h2 class="text-center text-3xl font-bold">My Skills</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>HTML</p>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width: 90%">90%</div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <p>CSS</p>
+        <div class="progress">
+          <div class="progress-bar bg-info" style="width: 85%">85%</div>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4">
+        <p>JavaScript</p>
+        <div class="progress">
+          <div class="progress-bar bg-warning" style="width: 80%">80%</div>
+        </div>
+      </div>
+      <div class="col-md-6 mt-4">
+        <p>React</p>
+        <div class="progress">
+          <div class="progress-bar bg-primary" style="width: 75%">75%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-10 bg-blue-50">
+    <h2 class="text-center text-3xl font-bold">Contact Me</h2>
+    <form action="https://formspree.io/f/your-email" method="POST" class="max-w-lg mx-auto mt-6 bg-white p-6 shadow-md rounded">
+      <div class="mb-4">
+        <label for="name" class="block font-medium">Name</label>
+        <input type="text" id="name" name="name" required class="w-full px-3 py-2 border rounded">
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block font-medium">Email</label>
+        <input type="email" id="email" name="email" required class="w-full px-3 py-2 border rounded">
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block font-medium">Message</label>
+        <textarea id="message" name="message" rows="4" required class="w-full px-3 py-2 border rounded"></textarea>
+      </div>
+      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 text-white text-center py-4">
+    <p>&copy; 2024 THANUSREE KUMMARI. All Rights Reserved.</p>
+    <p>Follow me on <a href="#" class="text-blue-400">LinkedIn</a> | <a href="#" class="text-blue-400">GitHub</a></p>
+  </footer>
+
+</body>
+
+</html>
